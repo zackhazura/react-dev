@@ -1,0 +1,45 @@
+{
+  "name": "doula_purposes",
+  "version": "1.0.0",
+  "description": "Dev for Doula Purposes site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js",
+    "react-dev": "webpack -d --watch",
+    "webpack-p": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharysingh/doula_purposes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharysingh/doula_purposes/issues"
+  },
+  "homepage": "https://github.com/zacharysingh/doula_purposes#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  }
+}
